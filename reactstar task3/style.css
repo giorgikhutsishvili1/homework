@@ -1,0 +1,31 @@
+*{
+   box-sizing: border-box;
+}
+.container {
+   padding-top: 10px;
+   margin: 200px auto;
+   width: 366px;
+   height: 420px;
+   background-color:  #FAF4EF;
+   border-bottom-left-radius: 50px;
+}
+.photo {
+   margin-left: 50px;
+   margin-top: 30px;
+}
+.name {
+   margin-left: 40px;
+   color:  #4B4B4B;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 36px;
+}
+.usd {
+   margin-left: 40px;
+   font-size: 24px;
+   font-weight: bold;
+   line-height: 100%;
+   color: #737373;
+   margin-top: -30px;
+   
+}
