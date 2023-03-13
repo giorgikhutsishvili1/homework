@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 400px;
+    height: 650px;
+    background-color:  #FDFDFD;
+    border: 1px solid #F3F3F3 ;
+    border-radius: 10px;
+
+}
+.photo {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.satauri {
+    text-align: left;
+    color: #000000;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+ 
+}
+.text1{
+margin-bottom: 1px;
+margin-left: 50px;
+margin-right: 50px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #353535;
+clear: right;
+text-align: left;
+}
+.text2{
+    text-align: right;
+    margin-right: 35px;
+}
+.date {
+    color: #D2D2D2;
+    text-align: left;
+    margin-left: 50px;
+}
+.url {
+    color: #5076FF; 
+    margin-left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.line {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #F1F1F1;
+}
