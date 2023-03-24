@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E8EFFC;
+}
+.container{
+    margin: 0 auto;
+    width: 474px;
+    height: 359px;
+    background-color: #FFFFFF;
+}
+.header{
+    margin:0 auto;
+    width:474px;
+    height: 116px;
+    background-color: #E3004F;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+}
+.headertext{
+    padding-top: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+
+}
+.headerphoto{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+}
+.photo1{
+    border-radius: 60px;
+}
+.satauri{
+    padding 30px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+   
+}
+.text1{
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+    padding-left: 20px;
+    width: 50%;
+    
+
+}
+.circle{
+    width:30px;
+    height: 30px;
+    background-color: #FF2BA3;
+    border-radius: 20px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+.circle1{
+    width:30px;
+    height: 30px;
+    background-color: #9013FE;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 180px;
+}
+.circle2{
+    width:30px;
+    height: 30px;
+    background-color:#00D0E6;
+    border-radius: 20px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circletext{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin:0 auto;
+
+}
+.triangle{
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 45px solid #E3004F;
+        align-items: center;
+        position: absolute;
+        left: 46%;
+        top: -20px;
+ 
+    }
+    .container5{
+        margin-top:40px;
+    }
