@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "jakarta";
+    src: url(fonts/PlusJakartaSans-Regular.ttf);
+} 
+body{
+    width: 100%;
+    height: vh;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: vh;
+    background-image: url(images/grey.png);
+}
+.cont1{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+}
+.cont2{
+    width: 100%;
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.text1{
+    font: "jakarta";
+    color: hsla(213, 8%, 15%, 1);
+    font-size: 72px;
+    line-height: 90.72px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 15px;
+}
+.cont3{
+    width: 150px;
+    height: 100px;
+    overflow-y: hidden;
+}
+.cont4{
+    width: 594px;
+    height: 100px;
+}
+.cont5{
+    width: 366px;
+    height: 100px;
+}
+.cont6{
+    width: 130px;
+    height: 100px;
+    overflow-y: hidden;
+}
+.container2{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.cont7{
+    width: 330px;
+    height: 462px;
+}
+.cont8{
+    width: 290px;
+    height: 462px;
+}
+.cont9{
+    width: 300px;
+    height: 462px;
+}
+.cont10{
+    width: 300px;
+    height: 462px;
+}
+.image1{
+    width: 378px;
+    height: 462px; 
+}
+.image2{
+    width: 342px;
+    height: 420px;  
+}
+.image3{
+    width: 369px;
+    height: 452px;  
+}
+.image4{
+    width: 309px;
+    height: 379px;  
+}
+.container3{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+.cont11{
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+.cont12{
+    width: 302px;
+    height: 121px;
+    position: absolute;
+    top: 1560px;
+    left: 500px;
+}
+.cont13{
+    width: 550px;
+    height: 500px;
+    position: relative;
+    margin-right: 100px;
+}
+.cont14{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    top: 1200px;
+    right: 350px;
+}
+.image5{
+    width: 600px;
+    height: 382px;
+}
+.image6{
+    width: 900px;
+    height: 700px;
+}
+.text3{
+    font: "jakarta";
+    color: hsla(213, 8%, 15%, 1);
+    font-size: 70px;
+    line-height: 95px;
+    font-weight: 800;
+    padding: 0;
+    font-style: extra bold;
+    padding-left: 100px;
+}
+.container4{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+}
+.cont15{
+    background-image: url(images/rednike.png);
+    width: 455px;
+    height: 400px;
+    position: relative;
+}
+.cont16{
+    width: 428px;
+    height: 383px;
+    position: absolute;
+    z-index: -1;
+    bottom: 150px;
+    right: 100px;
+}
+.cont17{
+    width: 608px;
+    height: 400px;
+}
+.text4{
+    font: "jakarta";
+    color: hsla(214, 9%, 15%, 1);
+    font-size: 37px;
+    line-height: 60px;
+    font-weight: 500;
+    padding-left: 70px;
+}
+.container5{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+.text5{
+    font: "jakarta";
+    color: hsla(213, 8%, 15%, 1);
+    font-size: 72px;
+    line-height: 60px;
+    font-weight: 800;
+    padding-left: 90px;
+    text-transform: uppercase;
+}
+.text6{
+    font: "jakarta";
+    color: hsla(213, 8%, 15%, 1);
+    font-size: 72px;
+    line-height: 60px;
+    font-weight: 800;
+}
+.container7{
+    width: 745px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container6{
+    width: 1200px;
+    height: 541px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.image7{
+    width: 1200px;
+    height: 500px;
+}
+
+.container8, .container9, .container10, .container11{
+    width: 745px;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 2px solid hsla(0, 0%, 0%, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.cont17, .cont18, .cont19, .cont20{
+    width: 700px;
+    height: 100px;
+}
+.cont21, .cont22, .cont23, .cont24{
+    width: 45px;
+    height: 100px;
+}
+
+.text7{
+    font: "jakarta";
+    color: hsla(213, 8%, 15%, 1);
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.text8{
+    font: "jakarta";
+    color: hsla(213, 8%, 15%, 1);
+    font-size: 35px;
+    line-height: 44px;
+    font-weight: 400;
+}
+.cont25{
+    width: 5px;
+    height: 95px;
+    margin: 0 auto;
+    border-left: 2px solid hsla(0, 0%, 0%, 1);
+    margin-top: 50px;
+}
+.cont26{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+.cont29{
+    width: 950px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.cont27{
+    width: 814px;
+    height: 764px;
+    position: absolute;
+    z-index: -1;
+    left: 350px;
+    bottom: -400px;
+}
+.button1{
+    width: 383px;
+    height: 72.39px;
+    background-color: hsla(0, 0%, 2%, 1);
+    color: white;
+    border-radius: 36px;
+    border: 1px solid hsla(0, 0%, 2%, 1);
+    font: "jakarta";
+    color: rgb(255, 251, 4);
+    font-size: 22px;
+    line-height: 27.72px;
+    font-weight: 700;
+    letter-spacing: 6%;
+    text-align: center;
+    font-style: bold;
+    text-transform: uppercase;
+}
+.cont28{
+    width: 1310px;
+    height: 451.5px;
+    background-color: hsla(0, 0%, 1%, 1);
+    margin: 0 auto;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.text2{
+    font: "jak";
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 15px;
+    line-height: 18.9px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 6%;
+}
+.image9{
+    width: 5.73px;
+    height: 5.42px;
+    margin-top: 10px;
+}
+.cont30{
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+.cont32{
+   width: 71px;
+   height: 71px;
+   position: absolute;
+   top: 55px;
+   left: 55px;
+}
+.cont31{
+    width: 64px;
+    height: 84px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.cont33{
+    width: 330;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
