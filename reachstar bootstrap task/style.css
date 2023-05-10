@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-Regular.ttf);
+}
+.paragraph{
+    text-align: center;
+    padding-top: 140px;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 36px;
+    line-height: 43.57px;
+    font-weight: 400;
+    font-family:  "inter";
+}
