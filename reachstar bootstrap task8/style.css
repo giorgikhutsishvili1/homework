@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .square {
+    background-color: #1aa17980;
+    height: 250px;
+    border-radius: 16px;
+  }
+  
