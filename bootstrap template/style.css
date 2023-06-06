@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navb{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: montserrat-bold;
+    color: #252B42;
+    text-decoration: none;
+}
+@media screen and (max-width:991px) {
+    .navbar1{
+        margin-left: 0;
+    }
+}
+
+.but1{
+    width: 214px;
+    height: 52px;
+    border: none;
+    background: #23A6F0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: montserrat-bold;
+    color: #FFFFFF;
+}
+.fa-arrow-right{
+    margin-left: 15px;
+}
+.text{
+    height: 518px;
+}
+.contact{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+}
+
+.today{
+    font-weight: 700;
+    font-size: 58px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
+.know{
+    font-weight: 400;
+    font-size: 20px;
+    color: #737373;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
+.phone{
+    font-weight: 700;
+    font-size: 24px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+}
+.nav-link, .a2{
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: montserrat-bold;
+    color: #737373 !important;
+}
+.a2{
+    color: #23A6F0 !important;
+}
+.office{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
+.help{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+}
+.navbar1{
+    margin-left: 120px;
+}
+.c1{
+    height: 343px;
+}
+.c2{
+    height: 403px;
+}
+.c3{
+    height: 343px;
+}
+.mail{
+    width: 204px;
+    height: 58px;
+    border: none;
+    background: #F9F9F9;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
+    font-family: montserrat-regular;
+    letter-spacing: 0.2px;
+}
+.img1{
+    margin-top: 50px;
+}
+.img2{
+    margin-top: 80px;
+}
+.img3{
+    margin-top: 59px;
+}
+.text9, .text10{
+    font-weight: 700;
+    font-size: 14px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    font-family: montserrat-bold;
+    text-align: center;
+}
+.text10{
+    color: #FFFFFF;
+}
+.text3, .text2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+.text2{
+    color: #FFFFFF;
+}
+.but2{
+    width: 189px;
+    height: 54px;
+    border: none;
+    border: 1px solid #23A6F0;
+    border-radius: 37px;
+    background: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #23A6F0;
+}
+.txt{
+    text-align: center;
+    color: #252B42;
+    font-family: montserrat-bold;
+}
+.link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    font-family: montserrat-bold;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.hr1{
+    border: 1px solid #E6E6E6;
+}
+.meet{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+.lets{
+    font-weight: 700;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+}
+.but3{
+    width: 186px;
+    height: 52px;
+    border: none;
+    background: #23A6F0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: montserrat-bold;
+}
+.bandage{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    font-family: montserrat-bold;
+}
+
+.header{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+    margin-bottom: 20px;
+}
+
+.inputdiv{
+    width: 321px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+.subscribe{
+    width: 117px;
+    height: 58px;
+    border: none;
+    background: #23A6F0;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: montserrat-regular;
+    letter-spacing: 0.2px;
+
+}
+.text6{
+    font-weight: 400;
+    font-size: 12px;
+    color: #737373;
+    font-family: montserrat-regular;
+    letter-spacing: 0.2px;
+}
+
+.wall{
+    height: 74px;
+    background: #FAFAFA;
+}
+.div5{
+    height: 74px;
+}
+.allright{
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
