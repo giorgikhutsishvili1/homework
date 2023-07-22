@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "bold";
+  src: url(../fonts/Rubik/Rubik-Bold.ttf);
+}
+@font-face {
+  font-family: "semi";
+  src: url(../fonts/Rubik/Rubik-SemiBold.ttf);
+}
+@font-face {
+  font-family: "light";
+  src: url(../fonts/Rubik/Rubik-Light.ttf);
+}
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/Rubik/Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: "medium";
+  src: url(../fonts/Rubik/Rubik-Medium.ttf);
+}
+:root {
+  --bold: "bold";
+  --semi: "semi";
+  --light: "light";
+  --reg: "regular";
+  --med: "medium";
+}
+#top {
+  font-family: var(--reg);
+  font-size: 14px;
+}
+.navbar-nav {
+  font-family: var(--med);
+}
+#one {
+  background-image: url("./images/bg.png");
+  height: 800px;
+}
+#topinput-one {
+  height: 50px;
+  font-size: 13px;
+  z-index: 2;
+}
+
+#track {
+  margin-left: -1%;
+  z-index: 1;
+}
+#header-1 {
+  font-size: 12px;
+  font-family: var(--light);
+  letter-spacing: 0.16em;
+}
+#header-2 {
+  font-size: 55px;
+
+  font-family: var(--med);
+}
+#header-3 {
+  font-family: var(--light);
+  font-size: 18px;
+}
+.chrdili {
+  font-family: var(--bold);
+  text-shadow: 50px -10px 5px #e5e5e5;
+  font-size: 64px;
+}
+#one-lorem {
+  font-family: var(--reg);
+  font-size: 18px;
+}
+button {
+  font-family: var(--med);
+}
+#circles {
+  height: 500px;
+  width: 500px;
+  margin-left: 10%;
+}
+#testimonials {
+  font-family: var(--med);
+  font-size: 24px;
+}
+#our {
+  font-family: var(--bold);
+  font-size: 48px;
+}
+#marry {
+  font-family: var(--bold);
+  font-size: 36px;
+}
+#founder {
+  font-size: 18px;
+  font-family: var(--reg);
+}
+#comment-box {
+  height: 500px;
+}
+#dots {
+  width: 123px;
+  height: 14px;
+}
+#black {
+  background-color: rgba(0, 0, 0, 1);
+}
+.myinput {
+  background-color: rgba(0, 0, 0, 1);
+  border: hidden;
+  border-bottom: 1px solid rgba(242, 242, 242, 1);
+  color: white;
+}
+.mydiffinput {
+  background-color: rgba(0, 0, 0, 1);
+  border: hidden;
+  border-bottom: 1px solid rgba(242, 242, 242, 1);
+  width: 410px;
+  color: white;
+}
+::placeholder {
+  color: rgba(242, 242, 242, 1);
+}
+#connect {
+  font-family: var(--bold);
+  color: rgba(255, 255, 255, 1);
+  font-size: 54px;
+}
+#thx {
+  font-size: 24px;
+  font-family: var(--light);
+  color: rgba(255, 255, 255, 1);
+}
+.top-text {
+  font-size: 18px;
+  font-family: var(--bold);
+}
+.small-text {
+  font-family: var(--reg);
+  font-size: 14px;
+}
+#footer-img {
+  width: 25px;
+  height: 25px;
+}
+.footer-one {
+  margin-left: 20%;
+}
+@media screen and (max-width: 540px) {
+  #one {
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+  }
+  #topinput-one {
+    height: 35px;
+    font-size: 8px;
+  }
+  #top {
+    font-size: 8px;
+  }
+  #header-1 {
+    font-size: 7px;
+  }
+  #header-2 {
+    font-size: 30px;
+  }
+  #header-3 {
+    font-size: 11px;
+  }
+  #track {
+    height: 35px;
+    font-size: 8px;
+  }
+  .chrdili {
+    font-size: 30px;
+    text-shadow: none;
+  }
+  #one-lorem {
+    font-size: 8px;
+  }
+  #one-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #circles {
+    width: 233px;
+    height: 233px;
+  }
+  #our {
+    font-size: 20px;
+  }
+  #testimonials {
+    font-size: 10px;
+  }
+  #marry {
+    font-size: 19px;
+  }
+  #founder {
+    font-size: 12px;
+  }
+  #review {
+    position: relative;
+  }
+  #arrow1 {
+    width: 23px;
+    height: 26px;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+  }
+  #arrow2 {
+    width: 23px;
+    height: 26px;
+    position: absolute;
+    bottom: 0px;
+    right: 40%;
+  }
+  #face {
+    width: 153px;
+    height: 148px;
+  }
+  #quote {
+    width: 22px;
+    height: 16px;
+  }
+  #stars {
+    width: 65px;
+    height: 13px;
+    margin: 30px 0 50px 50px;
+  }
+  #dots {
+    display: none;
+  }
+  .mydiffinput {
+    width: 260px;
+  }
+  #connect {
+    font-size: 25px;
+  }
+  #thx {
+    font-size: 15px;
+  }
+  .top-text {
+    font-size: 12px;
+  }
+  .small-text {
+    font-size: 10px;
+  }
+  .footer-one {
+    margin: 0;
+  }
+  #white-social {
+    width: 94px;
+    height: 19px;
+  }
+}
+@media screen and (max-width: 865px) {
+  #face {
+    width: 200px;
+    height: 192px;
+  }
+}
